@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase</title>
+</head>
+
+<body>
+    <form method="post" id="frmContact">
+        <p>
+            Fullname: <input type="text" name="fullname" id="fullname" required />
+        </p>
+        <p>
+            Email: <input type="email" name="email" id="email" required />
+        </p>
+        <p>
+            Subject: <input type="text" name="subject" id="subject" />
+        </p>
+        <p>
+            Message: <textarea name="message" id="message"></textarea>
+        </p>
+        <button type="submit" name="submit">Submit</button>
+    </form>
+
+    <!-- Link to the external JavaScript file -->
+    <!-- its better to place script js before body close, at the end, so to think... page content loads first, and 
+    things operations js work after submission, for the better performace... -->
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
