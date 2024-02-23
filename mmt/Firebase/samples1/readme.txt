@@ -1,0 +1,3 @@
+Tutorial source: https://artisansweb.net/how-to-connect-firebase-realtime-database-to-your-website-form/
+
+Databse settings details: in the settings tab of realtime database in firebase...
