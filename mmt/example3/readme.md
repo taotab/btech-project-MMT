@@ -1,4 +1,4 @@
-nodemcu esp8266 with DHT11 sensor,,, (WITH DATABASE STORAGE, sqlite3 here)
+## Nodemcu esp8266 with DHT11 sensor,,, (WITH DATABASE STORAGE, sqlite3 here)
 
 esp8266 sends DHT11 temp and humidity sensor readings to flask server...
 flask server hosting the index.html site, showing the redings on that site..
